@@ -8,16 +8,15 @@
 
 
 int main() {
-    char str[61];  // Karena panjang maksimal string adalah 60
-    scanf("%s", str);  // Membaca input
+    char str[61];  
+    scanf("%s", str);  
     
-    int len = strlen(str);  // Menghitung panjang string
-    
+    int len = strlen(str);  
     for (int i = 0; i < len; i += 3) {
-        // Ambil 3 karakter dari string
-        char sub[4] = { str[i], str[i+1], str[i+2], '\0' };  // Ambil 3 karakter sebagai string
-        int asciiValue = atoi(sub);  // Mengubah string menjadi angka ASCII
-        printf("%c", (char)asciiValue);  // Cetak karakter yang sesuai dengan ASCII
+       
+        char sub[4] = { str[i], str[i+1], str[i+2], '\0' };  
+        int asciiValue = atoi(sub);  
+        printf("%c", (char)asciiValue);   
     }
 
     return 0;
