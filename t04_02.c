@@ -1,10 +1,22 @@
-// NIM - Name
-// NIM - Name
+// 12S24055-THERESIA OKTAVIANI SAMOSIR
+// 12S24056-ENJEL AYUTI NAPITUPULU
 
 #include <stdio.h>
 
-int main(int _argv, char **_argc) {
-  // codes
+#include <string.h>
+#include <stdlib.h>
 
-  return 0;
+
+int main() {
+    char str[21];  
+    scanf("%20[^\n]", str); 
+
+    int len = strlen(str);
+    
+    for (int i = 0; i < len; i++) {
+        printf("%03d", str[i]);
+    }
+
+    printf("\n");  
+return 0;
 }
