@@ -1,1 +1,2 @@
 pair 07 sudah selesai mengerjakan t04 string sesuai dengan readme yang diberikan >3
+pair 07 sudah selesai memperbaiki code t04 string sesuai dengan readme yang diberikan >3
